@@ -12,24 +12,23 @@ const main = () => {
   });
 
   // Projects
-  const tableBody = data.Projects.map(
-    (proj) =>
-      `#### [${proj.title}](${proj.repoUrl})\n${proj.description} ([${proj.link.title}](${proj.link.href}))`
-  ).join(EOL);
-
-  const tBody = data.Projects.map(
+  const projectTableBody = data.Projects.map(
     (proj) => stripIndent`
     <tr>
       <td>
-        <h3>[${proj.title}](${proj.repoUrl})</h3>
+        <h3><a href="${proj.repoUrl}" target="_blank" rel="noreferrer">${proj.title}</a></h3>
         <p>${proj.description}</p>
+        <p><a href="${proj.link.href}" target="_blank" rel="noreferrer">${proj.link.title} 👀</a></p>
       </td>
-      <td></td>
+      <td>...</td>
     </tr>
   `
   ).join(EOL);
 
-  template = template.replace("<PROJECTS/>", `<table>${tBody}</table>`);
+  template = template.replace(
+    "<PROJECTS/>",
+    `<table>${projectTableBody}</table>`
+  );
 
   // Conference talks
   template = template.replace(
