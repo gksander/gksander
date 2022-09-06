@@ -16,15 +16,14 @@ const main = () => {
     (proj) => stripIndent`
     <tr>
       <td>
-        <h3><a href="${proj.repoUrl}" target="_blank" rel="noreferrer">${proj.title}</a></h3>
+        ${h4Link(proj.title, proj.repoUrl)}
         <p>${proj.description}</p>
-        <p><a href="${proj.link.href}" target="_blank" rel="noreferrer">${proj.link.title} 👀</a></p>
+        ${pLink(`👀 ${proj.link.title}`, proj.link.href)}
       </td>
       <td>...</td>
     </tr>
   `
   ).join(EOL);
-
   template = template.replace(
     "<PROJECTS/>",
     `<table>${projectTableBody}</table>`
@@ -39,11 +38,19 @@ const main = () => {
   );
 
   // Blog posts
+  const blogPostBody = data.BlogPosts.map(
+    (post) => stripIndent`
+    <tr>
+      <td>
+        ${h4Link(post.title, post.href)}
+        <p>${post.description}</p>
+      </td>
+    </tr>
+  `
+  ).join(EOL);
   template = template.replace(
     "<BLOG_POSTS/>",
-    data.BlogPosts.map(
-      (post) => `#### [${post.title}](${post.href})\n${post.description}`
-    ).join(EOL)
+    `<table>${blogPostBody}</table>`
   );
 
   const formatted = format(template, {
@@ -51,5 +58,11 @@ const main = () => {
   });
   fs.writeFileSync(path.join(__dirname, "..", "README.md"), formatted);
 };
+
+const h4Link = (title, href) =>
+  ` <h4><a href="${href}" target="_blank" rel="noreferrer">${title}</a></h4>`;
+
+const pLink = (title, href) =>
+  `<p><a href="${href}" target="_blank" rel="noreferrer">${title}</a></p>`;
 
 main();
