@@ -24,7 +24,7 @@ Though I'm not trained as a designer, I enjoy thinking about design and user exp
 
 ## Blog posts
 
-...
+<BLOG_POSTS/>
 
 ## Work Experience
 

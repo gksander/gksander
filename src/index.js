@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { EOL } = require("os");
 const { format } = require("prettier");
-const { ConfTalks } = require("./data");
+const data = require("./data");
 
 const main = () => {
   let template = fs.readFileSync(path.join(__dirname, "README.template.md"), {
@@ -13,8 +13,16 @@ const main = () => {
   // Conference talks
   template = template.replace(
     "<CONFERENCE_TALKS/>",
-    ConfTalks.map(
+    data.ConfTalks.map(
       (talk) => `#### [${talk.title}](${talk.href})\n${talk.description}`
+    ).join(EOL)
+  );
+
+  // Blog posts
+  template = template.replace(
+    "<BLOG_POSTS/>",
+    data.BlogPosts.map(
+      (post) => `#### [${post.title}](${post.href})\n${post.description}`
     ).join(EOL)
   );
 

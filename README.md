@@ -26,7 +26,29 @@ An introduction to React Native Reanimated V2. Presented at React Native EU 2020
 
 ## Blog posts
 
-...
+#### [Iterables in JS](https://formidable.com/blog/2022/iterables-in-js/)
+
+A quick glance at iterables in JavaScript.
+
+#### [From React Web to React Native](https://formidable.com/blog/2021/rn-vs-react/)
+
+What to expect when moving from React Web to React Native.
+
+#### [Intro to Reanimated 2](https://formidable.com/blog/2021/reanimated-two/)
+
+An introduction to React Native Reanimated V2, with illustrative example.
+
+#### [Tilt Carousel with React Native](https://dev.to/gksander/react-native-tilt-carousel-animation-13ep)
+
+Using React Native's FlatList component to create a "Tilt Carousel".
+
+#### [Webp-ing Your Site for Faster Images](https://dev.to/gksander/webp-ing-your-site-reduce-image-file-size-increase-site-performance-4ho8)
+
+How to create WebP images and load them in a front-end app.
+
+#### [Keyboard Display with CSS Grid](https://dev.to/gksander/a-keyboard-display-using-css-grid-2k2n)
+
+Using CSS grid to create a keyboard display.
 
 ## Work Experience
 
