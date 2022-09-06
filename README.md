@@ -18,56 +18,56 @@ Though I'm not trained as a designer, I enjoy thinking about design and user exp
 
 <table><tr>
   <td>
-    <h3>[React Native Zephyr](https://github.com/FormidableLabs/react-native-zephyr)</hr>
+    <h3>[React Native Zephyr](https://github.com/FormidableLabs/react-native-zephyr)</h3>
     <p>TailwindCSS-inspired styling library for React Native.</p>
   </td>
   <td></td>
 </tr>
 <tr>
   <td>
-    <h3>[Clips](https://github.com/FormidableLabs/clips)</hr>
+    <h3>[Clips](https://github.com/FormidableLabs/clips)</h3>
     <p>A screen recording app built with web technologies.</p>
   </td>
   <td></td>
 </tr>
 <tr>
   <td>
-    <h3>[Mandelbruh](https://github.com/gksander/mandelbruh)</hr>
+    <h3>[Mandelbruh](https://github.com/gksander/mandelbruh)</h3>
     <p>A mandelbrot fractal generator built with raw WebGL and Svelte.</p>
   </td>
   <td></td>
 </tr>
 <tr>
   <td>
-    <h3>[Personal PokeDex](https://github.com/gksander/gks-pokedex-next)</hr>
+    <h3>[Personal PokeDex](https://github.com/gksander/gks-pokedex-next)</h3>
     <p>A couch-project I put together while exploring Next.js static site generation. Parsed CSVs of Pokemon data to statically-generate a site with hundreds of highly-optimized pages. Used Node tooling to extract vibrant colors to spice up the app's design.</p>
   </td>
   <td></td>
 </tr>
 <tr>
   <td>
-    <h3>[React Dynamic Geometry](https://github.com/gksander/react-dynamic-geometry)</hr>
+    <h3>[React Dynamic Geometry](https://github.com/gksander/react-dynamic-geometry)</h3>
     <p>A React library for creating dynamic geometry boards. This was a "could I do that?" project, and was more for fun than for real-world use. Uses React, TypeScript, Jotai, and MATH.</p>
   </td>
   <td></td>
 </tr>
 <tr>
   <td>
-    <h3>[CIE Color Converter](https://github.com/gksander/CIE-ColorConverter)</hr>
+    <h3>[CIE Color Converter](https://github.com/gksander/CIE-ColorConverter)</h3>
     <p>A dependency-free JS library to convert between 7 different color spaces. Lots of fun matrix maths.</p>
   </td>
   <td></td>
 </tr>
 <tr>
   <td>
-    <h3>[GifMaker](https://github.com/gksander/gif-maker)</hr>
+    <h3>[GifMaker](https://github.com/gksander/gif-maker)</h3>
     <p>Browser-based FFMPEG video converter. Handy for turning .mov files into GIFs.</p>
   </td>
   <td></td>
 </tr>
 <tr>
   <td>
-    <h3>[React Native Animation Samples](https://github.com/gksander/react-native-animation-samples)</hr>
+    <h3>[React Native Animation Samples](https://github.com/gksander/react-native-animation-samples)</h3>
     <p>An ongoing playground for creating snippets of cool animations in React Native using React Native's built-in Animated API. A fun place for me to explore mobile animation techniques.</p>
   </td>
   <td></td>

@@ -21,7 +21,7 @@ const main = () => {
     (proj) => stripIndent`
     <tr>
       <td>
-        <h3>[${proj.title}](${proj.repoUrl})</hr>
+        <h3>[${proj.title}](${proj.repoUrl})</h3>
         <p>${proj.description}</p>
       </td>
       <td></td>
