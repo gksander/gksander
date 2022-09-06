@@ -10,6 +10,15 @@ const main = () => {
     flag: "r",
   });
 
+  // Projects
+  template = template.replace(
+    "<PROJECTS/>",
+    data.Projects.map(
+      (proj) =>
+        `#### [${proj.title}](${proj.repoUrl})\n${proj.description} ([${proj.link.title}](${proj.link.href}))`
+    ).join(EOL)
+  );
+
   // Conference talks
   template = template.replace(
     "<CONFERENCE_TALKS/>",

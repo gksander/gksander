@@ -16,7 +16,37 @@ Though I'm not trained as a designer, I enjoy thinking about design and user exp
 
 ## Projects
 
-...
+#### [React Native Zephyr](https://github.com/FormidableLabs/react-native-zephyr)
+
+TailwindCSS-inspired styling library for React Native. ([View the docs](https://formidable.com/open-source/react-native-zephyr/))
+
+#### [Clips](https://github.com/FormidableLabs/clips)
+
+A screen recording app built with web technologies. ([Check it out](https://clips.formidable.com/))
+
+#### [Mandelbruh](https://github.com/gksander/mandelbruh)
+
+A mandelbrot fractal generator built with raw WebGL and Svelte. ([Check it out](https://www.mandelbruh.dev/))
+
+#### [Personal PokeDex](https://github.com/gksander/gks-pokedex-next)
+
+A couch-project I put together while exploring Next.js static site generation. Parsed CSVs of Pokemon data to statically-generate a site with hundreds of highly-optimized pages. Used Node tooling to extract vibrant colors to spice up the app's design. ([Check it out](https://pokedex.gksander.com/))
+
+#### [React Dynamic Geometry](https://github.com/gksander/react-dynamic-geometry)
+
+A React library for creating dynamic geometry boards. This was a "could I do that?" project, and was more for fun than for real-world use. Uses React, TypeScript, Jotai, and MATH. ([View the source with some examples](https://github.com/gksander/react-dynamic-geometry))
+
+#### [CIE Color Converter](https://github.com/gksander/CIE-ColorConverter)
+
+A dependency-free JS library to convert between 7 different color spaces. Lots of fun matrix maths. ([View the source](https://github.com/gksander/CIE-ColorConverter))
+
+#### [GifMaker](https://github.com/gksander/gif-maker)
+
+Browser-based FFMPEG video converter. Handy for turning .mov files into GIFs. ([Check it out](https://gif-maker.gksander.com/))
+
+#### [React Native Animation Samples](https://github.com/gksander/react-native-animation-samples)
+
+An ongoing playground for creating snippets of cool animations in React Native using React Native's built-in Animated API. A fun place for me to explore mobile animation techniques. ([View the source](https://github.com/gksander/react-native-animation-samples))
 
 ## Conference talks
 
@@ -49,11 +79,3 @@ How to create WebP images and load them in a front-end app.
 #### [Keyboard Display with CSS Grid](https://dev.to/gksander/a-keyboard-display-using-css-grid-2k2n)
 
 Using CSS grid to create a keyboard display.
-
-## Work Experience
-
-...
-
-## Education
-
-...

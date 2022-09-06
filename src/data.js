@@ -41,3 +41,78 @@ module.exports.BlogPosts = [
     href: "https://dev.to/gksander/a-keyboard-display-using-css-grid-2k2n",
   },
 ];
+
+module.exports.Projects = [
+  {
+    title: "React Native Zephyr",
+    repoUrl: "https://github.com/FormidableLabs/react-native-zephyr",
+    description: `TailwindCSS-inspired styling library for React Native.`,
+    link: {
+      href: "https://formidable.com/open-source/react-native-zephyr/",
+      title: "View the docs",
+    },
+  },
+  {
+    title: "Clips",
+    repoUrl: "https://github.com/FormidableLabs/clips",
+    description: `A screen recording app built with web technologies.`,
+    link: {
+      href: "https://clips.formidable.com/",
+      title: "Check it out",
+    },
+  },
+  {
+    title: "Mandelbruh",
+    repoUrl: "https://github.com/gksander/mandelbruh",
+    description: `A mandelbrot fractal generator built with raw WebGL and Svelte.`,
+    link: {
+      href: "https://www.mandelbruh.dev/",
+      title: "Check it out",
+    },
+  },
+  {
+    title: "Personal PokeDex",
+    repoUrl: "https://github.com/gksander/gks-pokedex-next",
+    description: `A couch-project I put together while exploring Next.js static site generation. Parsed CSVs of Pokemon data to statically-generate a site with hundreds of highly-optimized pages. Used Node tooling to extract vibrant colors to spice up the app's design.`,
+    link: {
+      href: "https://pokedex.gksander.com/",
+      title: "Check it out",
+    },
+  },
+  {
+    title: "React Dynamic Geometry",
+    repoUrl: "https://github.com/gksander/react-dynamic-geometry",
+    description: `A React library for creating dynamic geometry boards. This was a "could I do that?" project, and was more for fun than for real-world use. Uses React, TypeScript, Jotai, and MATH.`,
+    link: {
+      href: "https://github.com/gksander/react-dynamic-geometry",
+      title: "View the source with some examples",
+    },
+  },
+  {
+    title: "CIE Color Converter",
+    repoUrl: "https://github.com/gksander/CIE-ColorConverter",
+    description: `A dependency-free JS library to convert between 7 different color spaces. Lots of fun matrix maths.`,
+    link: {
+      href: "https://github.com/gksander/CIE-ColorConverter",
+      title: "View the source",
+    },
+  },
+  {
+    title: "GifMaker",
+    repoUrl: "https://github.com/gksander/gif-maker",
+    description: `Browser-based FFMPEG video converter. Handy for turning .mov files into GIFs.`,
+    link: {
+      href: "https://gif-maker.gksander.com/",
+      title: "Check it out",
+    },
+  },
+  {
+    title: "React Native Animation Samples",
+    repoUrl: "https://github.com/gksander/react-native-animation-samples",
+    description: `An ongoing playground for creating snippets of cool animations in React Native using React Native's built-in Animated API. A fun place for me to explore mobile animation techniques.`,
+    link: {
+      href: "https://github.com/gksander/react-native-animation-samples",
+      title: "View the source",
+    },
+  },
+];
