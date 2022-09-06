@@ -20,10 +20,10 @@ const main = () => {
     (proj) => `
     <tr>
       <td>
-        ### [${proj.title}](${proj.repoUrl})
-        ${proj.description}
-        [${proj.link.title}](${proj.link.href}
+        <h3>[${proj.title}](${proj.repoUrl})</hr>
+        <p>${proj.description}</p>
       </td>
+      <td></td>
     </tr>
   `
   ).join(EOL);
