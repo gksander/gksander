@@ -1,4 +1,4 @@
-# 🤠 Howdy!
+<img src="./img/banner.jpg" width="100%" />
 
 ## A little bit about me
 
