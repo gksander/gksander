@@ -11,13 +11,24 @@ const main = () => {
   });
 
   // Projects
-  template = template.replace(
-    "<PROJECTS/>",
-    data.Projects.map(
-      (proj) =>
-        `#### [${proj.title}](${proj.repoUrl})\n${proj.description} ([${proj.link.title}](${proj.link.href}))`
-    ).join(EOL)
-  );
+  const tableBody = data.Projects.map(
+    (proj) =>
+      `#### [${proj.title}](${proj.repoUrl})\n${proj.description} ([${proj.link.title}](${proj.link.href}))`
+  ).join(EOL);
+
+  const tBody = data.Projects.map(
+    (proj) => `
+    <tr>
+      <td>
+        ### [${proj.title}](${proj.repoUrl})
+        ${proj.description}
+        [${proj.link.title}](${proj.link.href}
+      </td>
+    </tr>
+  `
+  ).join(EOL);
+
+  template = template.replace("<PROJECTS/>", `<table>${tBody}</table>`);
 
   // Conference talks
   template = template.replace(
