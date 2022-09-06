@@ -16,6 +16,8 @@ Though I'm not trained as a designer, I enjoy thinking about design and user exp
 
 ## Projects
 
+Various non-private projects I've hacked on lately.
+
 <PROJECTS/>
 
 ## Conference talks

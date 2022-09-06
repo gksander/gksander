@@ -16,6 +16,8 @@ Though I'm not trained as a designer, I enjoy thinking about design and user exp
 
 ## Projects
 
+Various non-private projects I've hacked on lately.
+
 <table><tr>
   <td>
      <h4><a href="https://github.com/FormidableLabs/react-native-zephyr" target="_blank" rel="noreferrer">React Native Zephyr</a></h4>
