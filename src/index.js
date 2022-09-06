@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const { EOL } = require("os");
 const { format } = require("prettier");
+const { stripIndent } = require("common-tags");
 const data = require("./data");
 
 const main = () => {
@@ -17,7 +18,7 @@ const main = () => {
   ).join(EOL);
 
   const tBody = data.Projects.map(
-    (proj) => `
+    (proj) => stripIndent`
     <tr>
       <td>
         <h3>[${proj.title}](${proj.repoUrl})</hr>
