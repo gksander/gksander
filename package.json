@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "generate": "node src/index.js"
+  }
+}

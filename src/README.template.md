@@ -20,9 +20,7 @@ Though I'm not trained as a designer, I enjoy thinking about design and user exp
 
 ## Conference talks
 
-#### [Modern Animating in React Native](https://www.youtube.com/watch?v=DHeoxQBkcC0)
-
-An introduction to React Native Reanimated V2. Presented at React Native EU 20201.
+<CONFERENCE_TALKS/>
 
 ## Blog posts
 
