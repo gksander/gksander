@@ -14,6 +14,8 @@ Building large-scale software is a team sport, and I love leading by example. I'
 
 Though I'm not trained as a designer, I enjoy thinking about design and user experience. I'm particularly fascinated with graphics/modeling and animation.
 
+![Github stats](https://github-readme-stats.vercel.app/api?username=gksander&show_icons=true) 
+
 ## Projects
 
 Various non-private projects I've hacked on lately.
