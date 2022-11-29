@@ -96,6 +96,18 @@ An introduction to React Native Reanimated V2. Presented at React Native EU 2020
 
 <table><tr>
   <td>
+     <h4><a href="https://formidable.com/blog/2022/what-the-hex/" target="_blank" rel="noreferrer">What the hex?</a></h4>
+    <p>An exploration of the hex color code representation.</p>
+  </td>
+</tr>
+<tr>
+  <td>
+     <h4><a href="https://formidable.com/blog/2022/screen-webcam-mixing-recording/" target="_blank" rel="noreferrer">Screen and Webcam Mixing and Recording with Web APIs</a></h4>
+    <p>Using Web APIs to create a screen and webcam recording app.</p>
+  </td>
+</tr>
+<tr>
+  <td>
      <h4><a href="https://formidable.com/blog/2022/iterables-in-js/" target="_blank" rel="noreferrer">Iterables in JS</a></h4>
     <p>A quick glance at iterables in JavaScript.</p>
   </td>
