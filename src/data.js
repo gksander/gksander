@@ -9,6 +9,16 @@ module.exports.ConfTalks = [
 
 module.exports.BlogPosts = [
   {
+    title: "What the hex?",
+    description: "An exploration of the hex color code representation.",
+    href: "https://formidable.com/blog/2022/what-the-hex/"
+  },
+  {
+    title: "Screen and Webcam Mixing and Recording with Web APIs",
+    description: "Using Web APIs to create a screen and webcam recording app.",
+    href: "https://formidable.com/blog/2022/screen-webcam-mixing-recording/"
+  },
+  {
     title: "Iterables in JS",
     description: "A quick glance at iterables in JavaScript.",
     href: "https://formidable.com/blog/2022/iterables-in-js/",
