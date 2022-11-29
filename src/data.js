@@ -67,7 +67,7 @@ module.exports.Projects = [
     repoUrl: "https://github.com/FormidableLabs/clips",
     description: `A screen recording app built with web technologies.`,
     link: {
-      href: "https://clips.formidable.com/",
+      href: "https://clips.formidable.dev/",
       title: "Check it out",
     },
   },
