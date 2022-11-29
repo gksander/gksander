@@ -14,9 +14,6 @@ Building large-scale software is a team sport, and I love leading by example. I'
 
 Though I'm not trained as a designer, I enjoy thinking about design and user experience. I'm particularly fascinated with graphics/modeling and animation.
 
-![Github stats](https://github-readme-stats.vercel.app/api?username=gksander&show_icons=true) 
-![Streak](https://github-readme-streak-stats.herokuapp.com/?user=gksander)
-
 ## Projects
 
 Various non-private projects I've hacked on lately.
@@ -33,7 +30,7 @@ Various non-private projects I've hacked on lately.
   <td>
      <h4><a href="https://github.com/FormidableLabs/clips" target="_blank" rel="noreferrer">Clips</a></h4>
     <p>A screen recording app built with web technologies.</p>
-    <p><a href="https://clips.formidable.com/" target="_blank" rel="noreferrer">👀 Check it out</a></p>
+    <p><a href="https://clips.formidable.dev/" target="_blank" rel="noreferrer">👀 Check it out</a></p>
   </td>
   <td>...</td>
 </tr>
